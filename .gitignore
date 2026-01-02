@@ -1,0 +1,62 @@
+# Android
+# =======
+build/
+bin/
+gen/
+out/
+.gradle/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+*.ap_
+*.dex
+
+# Android Studio / IntelliJ
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+/local.properties
+/.navigation/
+/assetWizardSettings.xml
+/.idea/assetWizardSettings.xml
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/caches/
+/.idea/libraries/
+
+# Gradle
+# ======
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Secrets & Security
+# ==================
+# Never commit signing keys or local configuration
+*.jks
+*.keystore
+*.p12
+local.properties
+secrets.properties
+google-services.json
+mock-google-services.json
+
+# If you use build config secrets or API keys in properties files
+# Add them here if they shouldn't be public
+
+# OS & Logs
+# =========
+.DS_Store
+Thumbs.db
+*.log
+*.hprof
+
+# Kotlin
+# ======
+.kotlin/
